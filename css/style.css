@@ -1,0 +1,200 @@
+/* common css */
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: lightyellow;
+    padding: 10px 0 0 0;
+ 
+}
+
+.container {
+    width : 1280px;
+    margin: 0 auto;
+
+}
+
+header nav {
+    display : flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+header nav .nav__logo a{
+    font-style: italic;
+    text-decoration: underline;
+    color: black;
+    font-size : 22px;
+}
+
+header nav .nav__logo a span {
+    color: red;
+    font-size: 52;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+header nav .nav__link > ul {
+    display : flex;
+    align-items: center;
+}
+
+header nav .nav__link ul li {
+    margin-right: 55px;
+    position: relative;
+     
+}
+
+header nav .nav__link ul li::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0px;
+    height: 2px;
+    background-color: #EC1C25;
+    content: '';
+    transition: .4s
+  
+}
+
+
+
+header nav .nav__link ul li a {
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    transition: .3s ease-in;
+   
+}
+
+header nav .nav__link ul li:hover a  {
+color : #EC1C25;
+}
+
+header nav .nav__link ul li:hover:after {
+    width: 100%;
+}
+
+
+/* banner start */
+
+.banner {
+    background: url(../images/header_bg.png) no-repeat;
+    background-size: contain;
+    background-position:right;
+    position: relative;
+}
+
+.banner > h1 {
+    position: absolute;
+    top: 40%;
+    right: -180px;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    letter-spacing: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: darkgray;
+}
+
+.banner__contents {
+display: flex;
+justify-content: space-between;
+}
+
+.banner__left {
+    
+    margin-top: 120px;
+}
+
+
+
+.banner__right .banner__right_girlImg {
+    width: 100%;
+   
+}
+
+.banner__left > h1 {
+    font-family:  "Poppins", sans-serif;
+    font-size: 38px;
+    letter-spacing: 4px;
+    font-weight: 600;
+    
+}
+
+.banner__left > h3{
+    font-family:  "Poppins", sans-serif;
+    font-size: 30px;
+    letter-spacing: 6px;
+    font-weight: 500;
+}
+
+.banner__left  .animate-typing{
+    font-family:  "Poppins", sans-serif;
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-weight: 800;
+    margin-top: 5px;
+    color: #EC1C25
+}
+
+.banner__left p {
+ 
+    width: 490px;
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+
+.download {
+    border: 1px solid #EC1C25;
+    background: #EC1C25;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-right: 5px;
+    color: white;
+    font-weight: 500;
+    transition: .4s ease;
+}
+
+.contact {
+    border: 1px solid #EC1C25;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-right: 5px;
+    color: #EC1C25;
+    font-weight: 500;
+    transition: .4s ease;
+}
+
+.download, .contact > i {
+    padding-right: 5px;
+}
+
+.download:hover {
+    background: white;
+    color: #EC1C25;
+}
+
+.contact:hover {
+    background: #EC1C25;
+    color: white;
+}
+
+
