@@ -197,4 +197,74 @@ justify-content: space-between;
     color: white;
 }
 
+/* about start  */
+
+
+
+#about .about__contents {
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
+#about .about__contents .about_contents__left {
+    width: 50%;
+}
+
+#about .about__contents .about_contents__right {
+    width: 50%;
+    margin: 120px 0 0 0;
+}
+
+#about .about__contents .about_contents__left img {
+    width: 100%;
+   
+}
+
+
+
+
+
+/* Example CSS */
+.vtabs-toggles { 
+  display: flex; 
+
+}
+
+.vtab-toggle { 
+  padding: .8rem .8rem; 
+  border-radius: 3px; 
+  background-color: #EC1C25;
+  color: #fff; 
+  cursor: pointer; 
+  margin-right: 1rem;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+
+.vtab-toggle.active {
+  background-color: #ccc; 
+  color: #000;  
+}
+
+.vtabs-content {
+    height: 400px!important;
+    margin-top: 40px;
+}
+
+.vtabs-content .vtab-content ul li {
+    margin-bottom: 30px!important;
+    list-style: disc!important;
+}
+
+/* contact start */
+
+
+
+
+
+
+
 
